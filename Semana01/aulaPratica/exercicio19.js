@@ -3,7 +3,7 @@ function checkSignal(x){
         console.log(x + " é positivo");
     }
     else if( x < 0){
-        console.log(x + "é negativo");
+        console.log(x + " é negativo");
     }
     else{
         console.log("x é igual a zero")
