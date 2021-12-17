@@ -15,7 +15,7 @@ function skillsPrinter(obj){
     console.log(obj.name);
     for (let i = 0; i < obj.skills; i++){
         console.log(obj.skills[i]);
-    }
+    } 
 }
 skillsPrinter(users[0]);
 skillsPrinter(users[1]);
