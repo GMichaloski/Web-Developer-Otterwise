@@ -69,3 +69,9 @@ console.log(tools)
 
 tools.splice(1,0,"chave de boca", "martelete");
 console.log(tools)
+
+// reverse
+
+const tiProducts = ["hd", "memória", "ssd", "placa de vídeo"];
+tiProducts.reverse();
+console.log(tiProducts);

@@ -62,3 +62,13 @@ console.log(hasTeacher);
 // sort 
 
 console.log([10,4,1,7,3].sort((a,b) => a - b));
+
+// reduce
+
+const numbersToReduce = [-8,12,76,100,-230,-7,120];
+
+const sum = numbersToReduce.reduce((acc, num) => {
+    return acc+num;
+}, 0);
+
+console.log(sum);
