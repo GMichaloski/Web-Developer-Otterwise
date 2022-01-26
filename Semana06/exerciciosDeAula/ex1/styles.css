@@ -1,0 +1,16 @@
+html {
+  background-color: antiquewhite;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  background-color: darkcyan;
+  padding: 5px;
+}
+
+p,
+li {
+  font-size: 12px;
+}
