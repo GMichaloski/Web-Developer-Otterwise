@@ -1,0 +1,22 @@
+/* MOBILE FIRST */
+div {
+  height: 200px;
+  width: 100%;
+}
+
+p {
+  font-size: 14px;
+}
+@media (min-widht: 768px) {
+  p {
+    font-size: 16px;
+  }
+}
+@media (min-width: 992px) {
+  div {
+    width: 33%;
+  }
+  p {
+    font-size: 18px;
+  }
+}
