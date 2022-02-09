@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Operações</title>
+  </head>
+  <body>
+    <header>
+      <h1>Calculadora rústica</h1>
+      <p>Digite dois número, escolha a operação e aguarde o resultado! =)</p>
+    </header>
+    <form
+      action="
+    "
+    >
+      <label for="number1">Primeiro número: </label>
+      <input type="number" name="number1" id="number1" />
+      <label for="number2">Segundo número: </label>
+      <input type="number" name="number2" id="number2" />
+      <label for="operation">Soma</label>
+      <input type="radio" name="operation" id="sum" value="sum" />
+      <label for="operation">Subtração</label>
+      <input type="radio" name="operation" id="sub" value="sub" />
+      <label for="operation">Multiplicação</label>
+      <input type="radio" name="operation" id="mul" value="mul" />
+      <label for="operation">Divisão</label>
+      <input type="radio" name="operation" id="div" value="div" />
+      <button type="submit">Enviar</button>
+    </form>
+    <p id="result">Resultado:</p>
+    <script src="./assets/main.js"></script>
+  </body>
+</html>
