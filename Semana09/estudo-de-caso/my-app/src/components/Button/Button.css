@@ -1,0 +1,58 @@
+.button {
+  border: none;
+  padding: 0 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 2.5rem;
+  width: 15rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.button__solid {
+  background-color: #319795;
+  color: white;
+}
+
+.button__solid:hover {
+  background-color: #2c7a7b;
+}
+
+.button__solid:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.button__solid:disabled:hover {
+  background-color: #319795;
+}
+
+.button__outlined {
+  color: #319795;
+  background-color: transparent;
+  border: 1px solid currentColor;
+}
+
+.button__outlined:hover {
+  background-color: #e6fffa;
+}
+
+.button__outlined:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.button__outlined:disabled:hover {
+  background-color: transparent;
+}
+
+.button__solid_blue {
+  background-color: #3182ce;
+}
+
+.button__solid_blue:hover {
+  background-color: #2b6cb0;
+}
+
+.button__outlined_blue:hover {
+  background-color: #ebf8ff;
+}
